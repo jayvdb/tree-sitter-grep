@@ -577,6 +577,7 @@ fn test_filter_argument_no_filter() {
 }
 
 #[test]
+#[ignore = "See https://github.com/helixbass/tree-sitter-grep/issues/70"]
 fn test_macro_contents() {
     assert_sorted_output(
         "match_inside_macro",
